@@ -3,198 +3,370 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: FALSE # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: FALSE # set to False if you want education in main section instead of in sidebar
+    skills: TRUE
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Katrin Tirok
+    tagline: Data Analyst | Aquatic Scientist | Trainer & Educator
+    avatar: Katrin4.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
+    email: katrintirok@gmail.com
+    phone: +49 176 64072239
+    website: katrintirok.github.io #do not add http://
+    linkedin: katrintirok
+    github: katrintirok
+    gitlab: katrintirok
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@katrintirok'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
+    skills_sidebar:
+      - type: Programming
+        name: R, Matlab
+        proficiency: (intermediate)
+        name2: Python, Bash, SQL, HTML, CSS
+        proficiency2: (basic)
+      - type: Software
+        name: QGIS, SPSS, LaTeX, Git, Corel Draw, Inkscape, Adobe Photoshop, Gimp, Office
+      - type: Collaboration
+        name: GitHub, Trello, Google Docs
+      - type: Operating Systems
+        name: Windows XP/7/10, Unix with Linux Mint/Ubuntu and Mac OS X
+      - type: Others
+        name: scientific communication (written and oral), cross-cultural competence
+
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    moocs:
+      - item: "Machine Learning"
+        link: https://www.coursera.org/learn/machine-learning
+        place: Stanford University through Coursera
+        time: Feb – Apr 2018
+
+      - item: The Data Scientist's Toolbox
+        link: https://www.coursera.org/learn/data-scientists-tools
+        place: Johns Hopkins University through Coursera
+        time: Mar 2015
+
+      - item: "6.00.2x: Introduction to Computational Thinking and Data Science"
+        link: https://www.edx.org/course/introduction-to-computational-thinking-and-data-science-2
+        place: MITx through edX
+        time: Mar – May 2014
+
+      - item: "6.00.1x: Introduction to Computer Science and Programming"
+        link: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2
+        place: MITx through edX
+        time: Oct – Dec 2013
+
+      - item: "Computing for Data Analysis (R programming)"
+        link: https://www.mooc-list.com/course/computing-data-analysis-coursera
+        place: Johns Hopkins University through Coursera
+        time: Nov – Dec 2013
+
 
     interests:
-      - item: Climbing
+    #  - item: Teaching with The Carpentries
+    #    link: https://thecarpentries.org
+
+      - item: Teaching coding to novices
         link:
 
-      - item: Snowboarding
+      - item: Education
         link:
 
-      - item: Cooking
+      - item: Volleyball
+        link:
+
+      - item: Data visualisation
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      When working with data to answer questions about a topic, I draw from my
+      experience as a scientist.
+      I like to work at the intersection of mathematics and other fields, e.g. biology.
+      I rely on open source tools in my daily work for their large
+      supportive communities and their expandability.
+#      I make use of scientific methods from my experience as a scientist.
+#      As a scientist I am interested to answer question using scientific methods.
+#      Im looking for a Data Scientist position where I can make use of my rich
+#      experience from being a Scientist.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD in Ecology
+      university: University of Potsdam
+      time: 2003 - 2008
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Thesis: Predator-prey relationships under endogenous and exogenous
+        regulation. A data-based modeling study on spring plankton with
+        respect to climate change
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Diploma in Biology (Masters equivalent)
+      university: University of Potsdam
+      time: 1997 - 2003
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Thesis: Zur Regulation der saisonalen Planktonentwicklung im Bodensee.
+        (Regulation of spring plankton development in Lake Constance. In German.)
 
-          - Bullet point
-          - Bullet point
+          - Specialisation: Aquatic Ecology, Systems Ecology
+          - in-depth course in data analysis using SAS, practical courses on
+          theoretical ecology and ecological modeling using Matlab and C++,
+          advanced course in analytical chemistry
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Self Employed
+      time: 2019 - Present
+      company:
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Organisation and teaching of workshops on basic Data Science skills with
+        spreadsheets, OpenRefine, R and Python.
+        Data cleaning and analysis, development of R shiny dashboards.
+        Organisation and moderation of online events including seminars and
+        community meetups.
 
-          - Bullet point
-          - Bullet point
+          - tools taught: R, RStudio, Python, Jupyter Notebooks
+          - tools used: Vidyo, Zoom, Trello, GitHub, R, RStudio
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Research Associate
+      time: 2013 - 2018
+      company: University of KwaZulu-Natal, School of Engineering, Durban, South Africa
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Analysis of environmental data from several field campaigns, numerical
+        modelling of hydro-ecosystems, field work and lab experiments for
+        projects in estuarine hydro-ecology, oceanography, and algae biofuel
+        research. Administrative tasks and acquisition of third party funds.
 
-          - Bullet point
-          - Bullet point
+          - data analysis and management (using Unix Shell, Matlab, R, MySQL)
+          - mathematical modelling (differential equations, hydrodynamic models)
+          - student training and supervision (Honours and Masters level)
+          - field work (boat based sampling in estuaries and sea,
+          analysis of water samples)
+          - lab experiments (photo-bioreactor, wave tank experiments)
+          - scientific writing
+          - funding acquisition
+          - project planning
+          - training workshop organisation
+          - field/lab instrument setup and servicing (multiparameter probes, PIV system, wave generator)
+          - software installations for research group (linux server)
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Postdoctoral Researcher
+      time: 2010 - 2013
+      company: University of KwaZulu-Natal, School of Life Sciences, Durban, South Africa
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Mathematical modelling and field observations to understand microalgal
+        dynamics in a large estuarine lake with highly variable environmental
+        conditions.
 
-          - Bullet point
-          - Bullet point
+          - mathematical modelling (differential equations)
+          - field work (sampling in estuaries, microscopic analysis)
+          - statistical analyses (regression models, canonical correspondence analysis,
+          multidimensional scaling)
+          - student supervision
+          - scientific writing
+          - project planning
+
+    - role: Postdoctoral Researcher
+      time: 2008 - 2010
+      company: Max Planck Institute of Molecular Plant Physiology, Systems Biology, Potsdam, Germany
+      details: |
+        Development of mathematical models of the photosynthetic electron
+        transport using coupled differential equations.
+
+    - role:  Researcher
+      time: 2008
+      company: Helmholtz-Zentrum Geesthacht, Centre for Materials and Coastal Research, Ecosystem Modeling, Geesthacht, Germany
+      details: |
+        Development of a trait-based predator-prey model, which allows simulation
+        of a continuum of different species and its adaptability to altered
+        growth conditions using coupled differential equations.
+
+    - role:  Researcher
+      time: 2004 - 2007
+      company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
+      details: |
+        My dissertation research focused on dynamics of aquatic organisms
+        (phytoplankton, zooplankton) in dependence on environmental conditions.
+        I used descriptive statistics, multiple regression models, and
+        process-oriented dynamic simulation models to analyse 20-year field data
+        and experimental data.
+
+    - role: Research Internship
+      time: 2004
+      company: University of Oslo, Department of Biology, Oslo, Norway
+      details: |
+        Simulating dynamics of aquatic micro-organisms and nutrients with a mathematical
+        model (ordinary differential equations) and model analysis.
+
+    - role: Research Assistant
+      time: 2003 - 2004
+      company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
+      details: |
+        Parameterisation of a large ecosystem model (ERSEM – European Regional
+        Seas Ecosystem Model, pelagic part) with data of a large deep lake.
+        Acquisition of third-party funds.
+
+    - role: Student Assistant
+      time: 2000 - 2003
+      company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam
+      details: |
+        My work included establishing a data base of several years lake data
+        including documentation and graphical data representation, besides
+        lab experiments and field work assistance.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      These projects show some of my work I did apart from my research which
+      is documented in publications (see below).
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Shiny App for the RCCPII Capacity Development Initiative
+        link: "https://tenet-rccpii.github.io/rccpii-2018/impact/visualise/"
+        tagline: "An R shiny app to visualise and help discovering insights from
+        activities and beneficiaries of a Capacity Development Initiative in South Africa in 2018/19."
+        # Read more about the initiative on https://tenet-rccpii.github.io/rccpii-2018/.
+        # github link https://rccpii-data.shinyapps.io/capacity-development/
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    #  - title: Landing page for AS Guitars
+    #    link: "http://www.asguitars.co.za"
+    #    tagline: "A landing page for AS Guitars build with Jekyll."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    #  - title: Data processing of Glider and VMP data
+    #    link: "#"
+    #    tagline: "..."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: A model to simulate dynamics in a bioreactor
+        link: "https://gitlab.com/katrintirok/bioreactor-model"
+        tagline: "Model to simulate algae, nutrient and grazer dynamics in a
+        chemostat process implemented in python."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+teaching:
+    title: Training
+    intro: |
+      Workshop activities with The Carpentries. Within these activities I am teaching
+      basic concepts in R (with tidyverse) and Python (with SciPy), but also
+      general concepts of data organisation and reproducibility.
+      All lessons are continously developed by the community and hosted on GitHub.
+      In particular I contributed to the following lessons:
+        Python Ecology, Python Social Sciences, R ecology.
+
+    workshops:
+    #  - title: "Data Carpentry Workshop at UKZN, 16 - 17 April 2019"
+    #    link: "https://workshops-ukzn.github.io/2019-04-16-UKZN-DC/"
+      - title: "Data Carpentry Workshops for Ecologists/Social Scientists"
+        link: "https://datacarpentry.org/lessons/"
+        tagline: "Universal Data Literacy - Data Organisation in Spreadsheets, Data Cleaning with OpenRefine,
+        Data Analysis and Visualisation with R or Python, Data Management with SQL"
+        taught: "April 2019, February 2019, January 2019, September 2018,
+        July 2018, March 2018, January 2018, September 2017"
+
+      - title: "Software Carpentry Workshops"
+        link: "https://software-carpentry.org/lessons/"
+        tagline: "Basic lab skills for research computing - The Unix Shell, Programming
+        with R or Python, Version Control and Sharing with Git/GitHub"
+        taught: "December 2018"
+
+      - title: "Carpentries Instructor Training"
+        link: "https://carpentries.org/trainers/"
+        tagline: "Basics of educational psychology and instructional design and
+        how to use these ideas in both intensive workshops and regular classes"
+        taught: "March 2019"
+
+
+blog_posts:
+    title: Blog-posts
+    intro: |
+
+    posts:
+  #  - title: Three little things when working with functions
+  #    link: ""
+  #    tagline: "What I learned when working with functions"
+
+    - title: Tips and Tricks for Teaching R
+      link: "https://carpentries.org/blog/2019/05/R-tips-and-tricks/"
+      tagline: "Bianca Peterson & Katrin Tirok share their tried-and-tested tips and tricks for teaching R"
+
+    - title: Highlights from the recent Instructor Training in South Africa
+      link: "https://carpentries.org/blog/2019/04/ukzn-ttt/"
+      tagline: "New instructors from the East Coast of South Africa join The Carpentries community"
+
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Selected scientific papers demonstrating data analysis and
+      mathematical modeling projects in my research.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+     - title: "Sediment resuspension in a shallow lake with muddy substrates: St Lucia, South Africa."
+       link: assets/papers/ZikhaliTirokStretch_2015_CSR_Sediment resuspension in a shallow lake with muddy substrates - St Lucia South Africa.pdf
+       authors: Zikhali, V., K. Tirok & D. Stretch (2015)
+       conference: "Continental Shelf Research 108: 112-120."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+     - title: "Wind-driven circulation patterns in a shallow estuarine lake: St Lucia, South Africa."
+       link: assets/papers/SchoenStretch&Tirok_ECSS2014.pdf
+       authors: Schoen, J., D. Stretch & K. Tirok (2014)
+       conference: "Estuarine, Coastal and Shelf Science 146: 49-59."
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+     - title: "Influence of variable water depth and turbidity on microalgae production in a shallow estuarine lake system – A modelling study."
+       link: assets/papers/Tirok&Scharler_2014_ECSS.pdf
+       authors: Tirok, K. & U. Scharler (2014)
+       conference: "Estuarine, Coastal and Shelf Science 146: 111-127."
+
+     - title: "Predator-prey dynamics driven by feedback between functionally diverse trophic levels."
+       link: assets/papers/Tirok_etal_2011_PLoSone.pdf
+       authors: Tirok, K., B. Bauer, K. W. Wirtz & U. Gaedke (2011)
+       conference: "PLoS one 6: e27357."
+
+     - title: "A minimal mathematical model of non-photochemical quenching of chlorophyll fluorescence."
+       link: assets/papers/Ebenhoeh_etal_2011_Biosystems.pdf
+       authors: Ebenhöh, O., T. Houwaart, H. Lokstein, S. Schlede & K. Tirok (2011)
+       conference: "Biosystems 103: 196-204."
+
+     - title: "Internally driven alternation of functional traits in a multi-species predator-prey system."
+       link: assets/papers/Tirok&Gaedke_2010_Ecology.pdf
+       authors: Tirok, K. & U. Gaedke (2010)
+       conference: "Ecology 91: 1748-1762."
+
+     - title: "The effect of irradiance, vertical mixing and temperature on spring phytoplankton dynamics
+     under climate change: long-term observations and model analysis."
+       link: assets/papers/Tirok&Gaedke_2007_Oecologia.pdf
+       authors: Tirok, K. & U. Gaedke (2007)
+       conference: "Oecologia 150: 625-642."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: R & RStudio
+        level: 75%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Matlab
+        level: 60%
 
-      - name: Angular
-        level: 98%
+      - name: Python & SciPy
+        level: 40%
+
+      - name: SQL
+        level: 15%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 10%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Gimp & Inkscape
+        level: 70%
 
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

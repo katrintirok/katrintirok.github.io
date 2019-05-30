@@ -23,7 +23,12 @@
     {% include education.html %}
   {% endif %}
 
+  {% if sidebar.skills %}
+    {% include skills_sidebar.html %}
+  {% endif %}
+
   {% include language.html %}
+  {% include moocs.html %}
   {% include interests.html %}
 
   {% if sidebar.about %}

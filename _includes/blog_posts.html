@@ -1,0 +1,34 @@
+{% assign blog_posts = site.data.data.blog_posts %}
+{% if blog_posts %}
+<section class="section project-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-edit fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ blog_posts.title }}
+  </h2>
+
+  {% if blog_posts.intro %}
+  <div class="intro">
+      <p>{{ blog_posts.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for post in blog_posts.posts %}
+    <div class="item">
+
+      <span class="project-title">
+        <a href="{{ post.link }}">{{ post.title }}</a>
+      </span>
+
+      {% if post.tagline %}
+      - <span class="project-tagline">{{ post.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

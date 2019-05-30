@@ -1,0 +1,22 @@
+{% assign moocs = site.data.data.sidebar.moocs %}
+{% if moocs %}
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    MOOC's
+  </h2>
+
+<ul class="list-unstyled interests-list">
+  {%for mooc in moocs %}
+  {% if mooc.link %}
+    <a href="{{ mooc.link }}">{{ mooc.item }}</a>
+    <p class="lang-desc">{{ mooc.place }}, {{ mooc.time }}</p>
+  {% else %}
+    {{ mooc.item }}
+    <p class="lang-desc">{{ mooc.place }}, {{ mooc.time }}</p>
+  {% endif %}
+  {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
