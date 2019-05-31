@@ -59,22 +59,26 @@ sidebar:
         time: Feb – Apr 2018
 
       - item: The Data Scientist's Toolbox
-        link: https://www.coursera.org/learn/data-scientists-tools
+        link: assets/certificates/Coursera_Certificate_v1-9734873619294.pdf
+          #https://www.coursera.org/learn/data-scientists-tools
         place: Johns Hopkins University through Coursera
         time: Mar 2015
 
       - item: "6.00.2x: Introduction to Computational Thinking and Data Science"
-        link: https://www.edx.org/course/introduction-to-computational-thinking-and-data-science-2
+        link: assets/certificates/EDx_MITx_6002_Certificate.pdf 
+          #https://www.edx.org/course/introduction-to-computational-thinking-and-data-science-2
         place: MITx through edX
         time: Mar – May 2014
 
-      - item: "6.00.1x: Introduction to Computer Science and Programming"
-        link: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2
+      - item: "6.00.1x: Introduction to Computer Science and Programming using Python"
+        link: assets/certificates/Certificate6.00.1x_edX.pdf
+          #https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2
         place: MITx through edX
         time: Oct – Dec 2013
 
       - item: "Computing for Data Analysis (R programming)"
-        link: https://www.mooc-list.com/course/computing-data-analysis-coursera
+        link: assets/certificates/Coursera_Certificate_v1-9709403619294.pdf
+          #https://www.mooc-list.com/course/computing-data-analysis-coursera
         place: Johns Hopkins University through Coursera
         time: Nov – Dec 2013
 
