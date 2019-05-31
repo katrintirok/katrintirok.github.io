@@ -87,8 +87,7 @@ sidebar:
       - item: Volleyball
         link:
 
-      - item: Data visualisation
-        link:
+
 
 career-profile:
     title: Career Profile
@@ -289,17 +288,14 @@ blog_posts:
     intro: |
 
     posts:
-  #  - title: Three little things when working with functions
-  #    link: ""
-  #    tagline: "What I learned when working with functions"
+     - title: Tips and Tricks for Teaching R
+       link: "https://carpentries.org/blog/2019/05/R-tips-and-tricks/"
+       tagline: "Bianca Peterson & Katrin Tirok share their tried-and-tested tips
+       and tricks for teaching R"
 
-    - title: Tips and Tricks for Teaching R
-      link: "https://carpentries.org/blog/2019/05/R-tips-and-tricks/"
-      tagline: "Bianca Peterson & Katrin Tirok share their tried-and-tested tips and tricks for teaching R"
-
-    - title: Highlights from the recent Instructor Training in South Africa
-      link: "https://carpentries.org/blog/2019/04/ukzn-ttt/"
-      tagline: "New instructors from the East Coast of South Africa join The Carpentries community"
+     - title: Highlights from the recent Instructor Training in South Africa
+       link: "https://carpentries.org/blog/2019/04/ukzn-ttt/"
+       tagline: "New instructors from the East Coast of South Africa join The Carpentries community"
 
 
 publications:
