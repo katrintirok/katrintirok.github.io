@@ -66,8 +66,7 @@ sidebar:
         place: Ecole Polytechnique, Paris, Franch
         time: 7 - 18 Sep 2015
 
-      - item: ClimEco4 summer school “Delineating the Issues of Climate Change
-      and Impacts to Marine Ecosystems”
+      - item: ClimEco4 summer school “Delineating the Issues of Climate Change and Impacts to Marine Ecosystems”
         place: East China Normal University, Shanghai, China
         time: 4 - 9 Aug 2014
 
@@ -109,9 +108,8 @@ sidebar:
 
 
     volunteering:
-       - item: Serving on organisation committee for satRday in Cape Town 2018
-       and Johannesburg 2019
-       - link: https://joburg2019.satrdays.org
+       - item: Serving on organisation committee for satRday in Cape Town 2018 and Johannesburg 2019
+         link: https://joburg2019.satrdays.org
 
        - item: Instructor and trainer for The Carpentries
          link: https://carpentries.org
