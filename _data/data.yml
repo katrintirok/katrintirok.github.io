@@ -48,10 +48,10 @@ sidebar:
         level: Professional
 
     moocs:
-      - item: "Structuring of Machine Learning projects"
-        link:
-        place:
-        time:
+    #  - item: "Structuring of Machine Learning projects"
+    #    link:
+    #    place:
+    #    time:
 
       - item: "Machine Learning"
         link: https://www.coursera.org/learn/machine-learning
@@ -65,7 +65,7 @@ sidebar:
         time: Mar 2015
 
       - item: "6.00.2x: Introduction to Computational Thinking and Data Science"
-        link: assets/certificates/EDx_MITx_6002_Certificate.pdf 
+        link: assets/certificates/EDx_MITx_6002_Certificate.pdf
           #https://www.edx.org/course/introduction-to-computational-thinking-and-data-science-2
         place: MITx through edX
         time: Mar – May 2014
