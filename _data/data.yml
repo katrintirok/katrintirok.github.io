@@ -345,13 +345,13 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: R & RStudio
+      - name: R & RStudio (base and tidyverse)
         level: 75%
 
       - name: Matlab
         level: 60%
 
-      - name: Python & SciPy
+      - name: Python & SciPy (Pandas, Numpy, Matplotlib)
         level: 40%
 
       - name: SQL
