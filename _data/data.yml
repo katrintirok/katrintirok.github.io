@@ -32,7 +32,7 @@ sidebar:
         name2: Python, Bash, SQL, HTML, CSS
         proficiency2: (basic)
       - type: Software
-        name: QGIS, SPSS, LaTeX, Git, Corel Draw, Inkscape, Adobe Photoshop, Gimp, Office
+        name: QGIS, SPSS, LaTeX, Git, Corel Draw, Inkscape, Adobe Photoshop, Gimp, Office, VirtualBox
       - type: Collaboration
         name: GitHub, Trello, Google Docs
       - type: Operating Systems
@@ -48,6 +48,11 @@ sidebar:
         level: Professional
 
     moocs:
+      - item: "Structuring of Machine Learning projects"
+        link:
+        place:
+        time:
+
       - item: "Machine Learning"
         link: https://www.coursera.org/learn/machine-learning
         place: Stanford University through Coursera
@@ -125,7 +130,7 @@ education:
 
 experiences:
     - role: Self Employed
-      time: 2019 - Present
+      time: Jan 2019 - Present
       company:
       details: |
         Organisation and teaching of workshops on basic Data Science skills with
@@ -138,7 +143,7 @@ experiences:
           - tools used: Vidyo, Zoom, Trello, GitHub, R, RStudio
 
     - role: Research Associate
-      time: 2013 - 2018
+      time: Jan 2014 - Dec 2018
       company: University of KwaZulu-Natal, School of Engineering, Durban, South Africa
       details: |
         Analysis of environmental data from several field campaigns, numerical
@@ -160,7 +165,7 @@ experiences:
           - software installations for research group (linux server)
 
     - role: Postdoctoral Researcher
-      time: 2010 - 2013
+      time: Jul 2010 - Dec 2013
       company: University of KwaZulu-Natal, School of Life Sciences, Durban, South Africa
       details: |
         Mathematical modelling and field observations to understand microalgal
@@ -176,14 +181,14 @@ experiences:
           - project planning
 
     - role: Postdoctoral Researcher
-      time: 2008 - 2010
+      time: Aug 2008 - Apr 2010
       company: Max Planck Institute of Molecular Plant Physiology, Systems Biology, Potsdam, Germany
       details: |
         Development of mathematical models of the photosynthetic electron
         transport using coupled differential equations.
 
     - role:  Researcher
-      time: 2008
+      time: Jan 2008 - Mar 2008
       company: Helmholtz-Zentrum Geesthacht, Centre for Materials and Coastal Research, Ecosystem Modeling, Geesthacht, Germany
       details: |
         Development of a trait-based predator-prey model, which allows simulation
@@ -191,7 +196,7 @@ experiences:
         growth conditions using coupled differential equations.
 
     - role:  Researcher
-      time: 2004 - 2007
+      time: Sep 2004 - Dez 2007
       company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
       details: |
         My dissertation research focused on dynamics of aquatic organisms
@@ -201,14 +206,14 @@ experiences:
         and experimental data.
 
     - role: Research Internship
-      time: 2004
+      time: Apr 2004 - Jun 2004
       company: University of Oslo, Department of Biology, Oslo, Norway
       details: |
         Simulating dynamics of aquatic micro-organisms and nutrients with a mathematical
         model (ordinary differential equations) and model analysis.
 
     - role: Research Assistant
-      time: 2003 - 2004
+      time: Oct 2003 - Aug 2004
       company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
       details: |
         Parameterisation of a large ecosystem model (ERSEM – European Regional
@@ -216,7 +221,7 @@ experiences:
         Acquisition of third-party funds.
 
     - role: Student Assistant
-      time: 2000 - 2003
+      time: Mar 2000 - Aug 2003
       company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam
       details: |
         My work included establishing a data base of several years lake data
