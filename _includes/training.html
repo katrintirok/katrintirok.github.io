@@ -1,0 +1,22 @@
+{% assign training = site.data.data.sidebar.training %}
+{% if training %}
+<div class="languages-container container-block">
+
+  <h2 class="container-block-title">
+    Training
+  </h2>
+
+<ul class="list-unstyled interests-list">
+  {%for course in training %}
+  {% if course.link %}
+    <a href="{{ course.link }}">{{ course.item }}</a>
+    <p class="lang-desc">{{ course.place }}, {{ course.time }}</p>
+  {% else %}
+    {{ course.item }}
+    <p class="lang-desc">{{ course.place }}, {{ course.time }}</p>
+  {% endif %}
+  {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

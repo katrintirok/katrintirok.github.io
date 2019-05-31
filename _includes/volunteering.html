@@ -1,0 +1,22 @@
+{% assign volunteering = site.data.data.sidebar.volunteering %}
+{% if volunteering %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Volunteering
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for event in volunteering %}
+
+      {% if event.link %}
+      <li><a href="{{ event.link }}">{{ event.item }}</a></li>
+      {% else %}
+      <li>{{ event.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

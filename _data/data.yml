@@ -47,6 +47,31 @@ sidebar:
       - idiom: English
         level: Professional
 
+    training:
+      - item: Carpentries Trainer training
+        link: assets/certificates/CarpentriesTrainerBadge_tirok_katrin.pdf
+        place: The Carpentries, Online
+        time: Jan - Mar 2019
+
+      - item: Ocean Turbulence Workshop
+        place: Durban, South Africa
+        time: 22 - 26 Jan 2018
+
+      - item: Data and Software Carpentry Instructor Training
+        link: assets/certificates/CarpentriesInstructorBadge_tirok_katrin.pdf
+        place: The Carpentries, Cape Town, South Africa
+        time: 30 Apr - 01 May 2017
+
+      - item: Summer School “Fluid Dynamics of Sustainability and the Environment”
+        place: Ecole Polytechnique, Paris, Franch
+        time: 7 - 18 Sep 2015
+
+      - item: ClimEco4 summer school “Delineating the Issues of Climate Change
+      and Impacts to Marine Ecosystems”
+        place: East China Normal University, Shanghai, China
+        time: 4 - 9 Aug 2014
+
+
     moocs:
     #  - item: "Structuring of Machine Learning projects"
     #    link:
@@ -81,6 +106,15 @@ sidebar:
           #https://www.mooc-list.com/course/computing-data-analysis-coursera
         place: Johns Hopkins University through Coursera
         time: Nov – Dec 2013
+
+
+    volunteering:
+       - item: Serving on organisation committee for satRday in Cape Town 2018
+       and Johannesburg 2019
+       - link: https://joburg2019.satrdays.org
+
+       - item: Instructor and trainer for The Carpentries
+         link: https://carpentries.org
 
 
     interests:
@@ -260,9 +294,9 @@ projects:
         chemostat process implemented in python."
 
 teaching:
-    title: Training
+    title: Teaching
     intro: |
-      Workshop activities with The Carpentries. Within these activities I am teaching
+      Workshops with The Carpentries: I am teaching
       basic concepts in R (with tidyverse) and Python (with SciPy), but also
       general concepts of data organisation and reproducibility.
       All lessons are continously developed by the community and hosted on GitHub.
