@@ -285,7 +285,7 @@ teaching:
 
 blog_posts:
     title: Blog-posts
-    intro: |
+    intro: >
 
     posts:
      - title: Tips and Tricks for Teaching R
