@@ -329,6 +329,9 @@ blog_posts:
     intro: >
 
     posts:
+     - title: Some things I learned when working with functions in R
+       link: "https://katrintirok.netlify.com/blog/littlethingsblog/"
+         
      - title: Tips and Tricks for Teaching R
        link: "https://carpentries.org/blog/2019/05/R-tips-and-tricks/"
        tagline: "Bianca Peterson & Katrin Tirok share their tried-and-tested tips
