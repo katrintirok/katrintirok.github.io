@@ -232,7 +232,7 @@ experiences:
         growth conditions using coupled differential equations.
 
     - role:  Researcher
-      time: Sep 2004 - Dez 2007
+      time: Sep 2004 - Dec 2007
       company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
       details: |
         My dissertation research focused on dynamics of aquatic organisms
@@ -331,7 +331,7 @@ blog_posts:
     posts:
      - title: Some things I learned when working with functions in R
        link: "https://katrintirok.netlify.com/blog/littlethingsblog/"
-         
+
      - title: Tips and Tricks for Teaching R
        link: "https://carpentries.org/blog/2019/05/R-tips-and-tricks/"
        tagline: "Bianca Peterson & Katrin Tirok share their tried-and-tested tips
@@ -358,6 +358,11 @@ publications:
        link: assets/papers/SchoenStretch&Tirok_ECSS2014.pdf
        authors: Schoen, J., D. Stretch & K. Tirok (2014)
        conference: "Estuarine, Coastal and Shelf Science 146: 49-59."
+
+     - title: "Wind-driven waves in a shallow estuarine lake with muddy substrates: St Lucia, South Africa"
+       link: assets/papers/Zikhali_2014_JCR_WindWavesStLucia.pdf
+       authors: Zikhali, V., K. Tirok & D. Stretch (2014)
+       conference: "Journal of Coastal Research, Special Issue No. 70, 729-735."
 
      - title: "Influence of variable water depth and turbidity on microalgae production in a shallow estuarine lake system – A modelling study."
        link: assets/papers/Tirok&Scharler_2014_ECSS.pdf
