@@ -272,7 +272,7 @@ projects:
 
     assignments:
       - title: Shiny App for the RCCPII Capacity Development Initiative
-        link: "https://tenet-rccpii.github.io/rccpii-2018/impact/visualise"
+        link: "https://rccpii-data.shinyapps.io/capacity-development/"
         tagline: "An R shiny app to visualise and help discovering insights from
         activities and beneficiaries of a Capacity Development Initiative in South Africa in 2018/19."
         codesource: "Source code on GitHub"
@@ -295,7 +295,7 @@ projects:
         link: "http://www.asguitars.co.za"
         linktocode: "https://github.com/asguitars/asguitars.github.io"
         codesource: "Source code on GitHub"
-        tagline: "A webpage for AS Guitars build with Jekyll."        
+        tagline: "Basic webpage for AS Guitars build with Jekyll."
 
 
 teaching:
