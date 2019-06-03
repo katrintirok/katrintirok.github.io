@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Katrin Tirok
-    tagline: Data Analyst | Biologist | Trainer & Educator
+    tagline: Data Analyst | Natural Scientist | Trainer & Educator
     avatar: Katrin4.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -32,7 +32,7 @@ sidebar:
         name2: Python, Bash, SQL, HTML, CSS
         proficiency2: (basic)
       - type: Software
-        name: QGIS, SPSS, LaTeX, Git, Corel Draw, Inkscape, Adobe Photoshop, Gimp, Office, VirtualBox
+        name: QGIS, Office, SPSS, LaTeX, Git, Inkscape, Gimp, VirtualBox
       - type: Collaboration
         name: GitHub, Trello, Google Docs
       - type: Operating Systems
@@ -189,6 +189,7 @@ experiences:
 
           - data analysis and management (using Unix Shell, Matlab, R, MySQL)
           - mathematical modelling (differential equations, hydrodynamic models)
+          - software installations for research group (linux server)
           - student training and supervision (Honours and Masters level)
           - field work (boat based sampling in estuaries and sea,
           analysis of water samples)
@@ -198,7 +199,6 @@ experiences:
           - project planning
           - training workshop organisation
           - field/lab instrument setup and servicing (multiparameter probes, PIV system, wave generator)
-          - software installations for research group (linux server)
 
     - role: Postdoctoral Researcher
       time: Jul 2010 - Dec 2013
@@ -209,9 +209,9 @@ experiences:
         conditions.
 
           - mathematical modelling (differential equations)
-          - field work (sampling in estuaries, microscopic analysis)
           - statistical analyses (regression models, canonical correspondence analysis,
           multidimensional scaling)
+          - field work (sampling in estuaries, microscopic analysis)
           - student supervision
           - scientific writing
           - project planning
@@ -248,21 +248,21 @@ experiences:
         Simulating dynamics of aquatic micro-organisms and nutrients with a mathematical
         model (ordinary differential equations) and model analysis.
 
-    - role: Research Assistant
-      time: Oct 2003 - Aug 2004
-      company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
-      details: |
-        Parameterisation of a large ecosystem model (ERSEM – European Regional
-        Seas Ecosystem Model, pelagic part) with data of a large deep lake.
-        Acquisition of third-party funds.
+  #  - role: Research Assistant
+  #    time: Oct 2003 - Aug 2004
+  #    company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam, Germany
+  #    details: |
+  #      Parameterisation of a large ecosystem model (ERSEM – European Regional
+  #      Seas Ecosystem Model, pelagic part) with data of a large deep lake.
+  #      Acquisition of third-party funds.
 
-    - role: Student Assistant
-      time: Mar 2000 - Aug 2003
-      company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam
-      details: |
-        My work included establishing a data base of several years lake data
-        including documentation and graphical data representation, besides
-        lab experiments and field work assistance.
+  #  - role: Student Assistant
+  #    time: Mar 2000 - Aug 2003
+  #    company: University of Potsdam, Ecology/Ecosystem Modeling, Potsdam
+  #    details: |
+  #      My work included establishing a data base of several years lake data
+  #      including documentation and graphical data representation, besides
+  #      lab experiments and field work assistance.
 
 projects:
     title: Projects
@@ -272,24 +272,31 @@ projects:
 
     assignments:
       - title: Shiny App for the RCCPII Capacity Development Initiative
-        link: "https://tenet-rccpii.github.io/rccpii-2018/impact/visualise/"
+        link: "https://tenet-rccpii.github.io/rccpii-2018/impact/visualise"
         tagline: "An R shiny app to visualise and help discovering insights from
         activities and beneficiaries of a Capacity Development Initiative in South Africa in 2018/19."
+        codesource: "Source code on GitHub"
+        linktocode: "https://github.com/katrintirok/rccpii-shinyapp"
         # Read more about the initiative on https://tenet-rccpii.github.io/rccpii-2018/.
         # github link https://rccpii-data.shinyapps.io/capacity-development/
-
-    #  - title: Landing page for AS Guitars
-    #    link: "http://www.asguitars.co.za"
-    #    tagline: "A landing page for AS Guitars build with Jekyll."
 
     #  - title: Data processing of Glider and VMP data
     #    link: "#"
     #    tagline: "..."
 
       - title: A model to simulate dynamics in a bioreactor
-        link: "https://gitlab.com/katrintirok/bioreactor-model"
+        link: "https://nbviewer.jupyter.org/urls/gitlab.com/katrintirok/bioreactor-model/raw/master/Bioreactor_NPZ_Model.ipynb"
+        codesource: "Source code on GitLab"
+        linktocode: "https://gitlab.com/katrintirok/bioreactor-model"
         tagline: "Model to simulate algae, nutrient and grazer dynamics in a
         chemostat process implemented in python."
+
+      - title: Webpage for AS Guitars
+        link: "http://www.asguitars.co.za"
+        linktocode: "https://github.com/asguitars/asguitars.github.io"
+        codesource: "Source code on GitHub"
+        tagline: "A webpage for AS Guitars build with Jekyll."        
+
 
 teaching:
     title: Teaching

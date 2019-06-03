@@ -27,6 +27,12 @@
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
 
+      {% if project.linktocode %}
+      <div class="project-tagline">
+        <a href="{{ project.linktocode }}">{{ project.codesource }}</a>
+      </div>
+      {% endif %}
+
     </div><!--//item-->
   {% endfor %}
 
