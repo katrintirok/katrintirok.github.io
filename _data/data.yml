@@ -135,7 +135,7 @@ career-profile:
     summary: |
       When working with data to answer questions about a topic, I draw from my
       experience as a scientist.
-      I like to work at the intersection of mathematics and other fields, e.g. biology.
+      I like to work at the intersection of mathematics and other fields.
       I rely on open source tools in my daily work for their large
       supportive communities and their expandability.
 #      I make use of scientific methods from my experience as a scientist.
@@ -295,8 +295,13 @@ projects:
         link: "http://www.asguitars.co.za"
         linktocode: "https://github.com/asguitars/asguitars.github.io"
         codesource: "Source code on GitHub"
-        tagline: "Basic webpage for AS Guitars build with Jekyll."
+        tagline: "Basic webpage for AS Guitars built with Jekyll, based on Agency theme."
 
+      - title: Landing page for Ocean Turbulence Workshop at UKZN, Durban, 2018
+        link: "https://katrintirok.github.io/TurbulenceWorkshop/"
+        linktocode: "https://github.com/katrintirok/TurbulenceWorkshop"
+        codesource: "Source code on GitHub"
+        tagline: "Landing page for a training workshop at UKZN built with Jekyll, based on Frisco template."
 
 teaching:
     title: Teaching
@@ -405,19 +410,22 @@ skills:
         level: 75%
 
       - name: Matlab
-        level: 60%
+        level: 75%
 
       - name: Python & SciPy (Pandas, Numpy, Matplotlib)
-        level: 40%
+        level: 50%
 
       - name: SQL
-        level: 15%
+        level: 25%
 
       - name: HTML5 & CSS
-        level: 10%
+        level: 25%
+
+      - name: QGIS
+        level: 50%
 
       - name: Gimp & Inkscape
-        level: 70%
+        level: 75%
 
 
 footer: >
