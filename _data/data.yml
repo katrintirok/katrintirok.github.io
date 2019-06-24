@@ -341,8 +341,9 @@ blog_posts:
     intro: >
 
     posts:
-     - title: A blog to remember things I learn when working with data and beyond
+     - title: My Blog
        link: "https://katrintirok.netlify.com/blog"
+       tagline: "A blog to remember things I learn when working with data and beyond"
 
      - title: Tips and Tricks for Teaching R
        link: "https://carpentries.org/blog/2019/05/R-tips-and-tricks/"
